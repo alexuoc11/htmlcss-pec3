@@ -4,15 +4,19 @@
     box-sizing: border-box;
 }
 
+html {
+    width: 100%;
+}
+
 @font-face {
     font-family: "Montserrat";
     src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format('truetype');
     font-weight: 1 999;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 900px) and (min-width: 300px) {
     .container {
-        max-width: 500px;
+        max-width: 400px;
     }
 
     header .container {
@@ -285,6 +289,7 @@ p {
 }
 
 main h2{
+    width: 100%;
     display: block;
     text-transform: uppercase;
     text-align: center;
@@ -406,7 +411,7 @@ main h2{
   height: 2px;
   position: relative;
   vertical-align: middle;
-  width: 38%;
+  width: 20%;
 }
 
 .line-h2:before {
