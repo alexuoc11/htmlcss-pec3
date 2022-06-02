@@ -14,7 +14,7 @@ html {
     font-weight: 1 999;
 }
 
-@media (max-width: 900px) and (min-width: 300px) {
+@media (max-width: 900px) and (min-width: 200px) {
     .container {
         max-width: 400px;
     }
@@ -325,7 +325,7 @@ main h2{
     text-align: left;
     background-color: #FFFFFF;
     border: 2px solid #79BAAB;
-    width: 300px;
+    width: 30%;
     padding: 2px;
 }
 
@@ -411,7 +411,7 @@ main h2{
   height: 2px;
   position: relative;
   vertical-align: middle;
-  width: 20%;
+  width: 10%;
 }
 
 .line-h2:before {
