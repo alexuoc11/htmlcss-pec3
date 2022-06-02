@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookination</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a class="header-logo-link" href="index.html"><img class="logo-img" src="img/logos/logo.png" alt=""></a>
+            <nav>
+                <ul>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="shop.html">Shop</a> </li>
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="recipes-h1">
+                <h1>Browse recipes</h1>
+                <p>All these healthy recipes are gluten-free and prioritize fresh, seasonal and wholesome ingredients. Enjoy!</p>
+            </div>
+            <div class="grid" id="recipes-grid">
+                <div class="filtres">
+                    <span>Categories</span>
+                    <ul>
+                        <li><label for="input1"><input type="checkbox" name="input1" id="input1">Side</label></li>
+                        <li><label for="input2"><input type="checkbox" name="input2" id="input2">Starter</label></li>
+                        <li><label for="input3"><input type="checkbox" name="input3" id="input3">Dessert</label></li>
+                        <li><label for="input4"><input type="checkbox" name="input4" id="input4">Meat</label></li>
+                        <li><label for="input5"><input type="checkbox" name="input5" id="input5">Seafood</label></li>
+                        <li><label for="input6"><input type="checkbox" name="input6" id="input6">Pasta</label></li>
+                        <li><label for="input7"><input type="checkbox" name="input7" id="input7">Vegan</label></li>
+                        <li><label for="input8"><input type="checkbox" name="input8" id="input8">Vegetarian</label></li>
+                    </ul>
+                    <span>Ingredients</span>
+                    <ul>
+                        <li><label for="i-input1"><input type="checkbox" name="i-input1" id="i-input1">Chicken</label></li>
+                        <li><label for="i-input2"><input type="checkbox" name="i-input2" id="i-input2">Chocolate</label></li>
+                        <li><label for="i-input3"><input type="checkbox" name="i-input3" id="i-input3">Eggs</label></li>
+                        <li><label for="i-input4"><input type="checkbox" name="i-input4" id="i-input4">Beef</label></li>
+                        <li><label for="i-input5"><input type="checkbox" name="i-input5" id="i-input5">Pork</label></li>
+                        <li><label for="i-input6"><input type="checkbox" name="i-input6" id="i-input6">Salmon</label></li>
+                        <li><label for="i-input7"><input type="checkbox" name="i-input7" id="i-input7">Lamb</label></li>
+                        <li><label for="i-input8"><input type="checkbox" name="i-input8" id="i-input8">Turkey</label></li>
+                    </ul>
+                    <span>Search</span>
+                    <div class="search-keyword">
+                        <img src="img/icons/search.svg" alt="">
+                        <input type="text" placeholder="Enter keyword...">
+                    </div>
+                </div>
+                <div class="latest">
+                    <img src="img/meals/kung-po.jpg" alt="">
+                    <a href=""><span>Kung po prawns</span></a>
+                </div>
+                <div class="latest">
+                    <img src="img/meals/chocolate-fudge.jpg" alt="">
+                    <a href=""><span>Hot chocolate fudge</span></a>
+                </div>
+                <div class="latest">
+                    <img src="img/meals/chicken-karaage.jpg" alt="">
+                    <a href=""><span>Chicken Karaage</span></a>
+                </div>
+                <div class="latest">
+                    <img src="img/meals/moussaka.jpg" alt="">
+                    <a href=""><span>Moussaka</span></a>
+                </div>
+                <div class="latest">
+                    <img src="img/meals/christmas-cake.jpg" alt="">
+                    <a href=""><span>Christmas cake</span></a>
+                </div>
+                <div class="latest">
+                    <img src="img/meals/french-onion.jpg" alt="">
+                    <a href=""><span>French onion soup</span></a>
+                </div>
+                <div class="latest">
+                    <img src="img/meals/mediterranean-pasta.jpg" alt="">
+                    <a href=""><span>Mediterranean salad</span></a>
+                </div>
+                <div class="latest">
+                    <img src="img/meals/lamb-potato-pie.jpg" alt="">
+                    <a href=""><span>Lamb potato pie</span></a>
+                </div>
+                <div class="latest">
+                    <img src="img/meals/pancakes.jpg" alt="">
+                    <a href=""><span>Pancakes</span></a>
+                </div>
+                <div class="latest">
+                    <img src="img/meals/ratatouille.jpg" alt="">
+                    <a href=""><span>Ratatouille</span></a>
+                </div>
+                <div class="latest">
+                    <img src="img/meals/chivito.jpg" alt="">
+                    <a href=""><span>Chivito uruguayo</span></a>
+                </div>
+                <div class="latest">
+                    <img src="img/meals/lamb-peka.jpg" alt="">
+                    <a href=""><span>Croatian lamb peka</span></a>
+                </div>
+                <ul class="pags">
+                    <li><a href="recipes.html">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">5</a></li>
+                    <li><a href="">6</a></li>
+                    <li><a href="">7</a></li>
+                    <li><a href="">>></a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <div class="newsletter">
+        <h2>Newsletter</h2>
+        <p>Receive a weekly email with new recipes and recommendations for your cooking</p>
+        <div class="newsletter-input">
+            <input type="text" placeholder="Your email address">
+            <button>Suscribe</button>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p class="first-line-f">Simple recipes that make you feel good</p>
+            <div class="follow">
+                <p>Follow us on</p>
+                <a href="" class="follow-img"><img src="img/icons/twitter.svg" alt=""></a>
+                <a href="" class="follow-img"><img src="img/icons/instagram.svg" alt=""></a>
+                <a href="" class="follow-img"><img src="img/icons/youtube.svg" alt=""></a>
+                <a href="" class="follow-img"><img src="img/icons/facebook.svg" alt=""></a>
+            </div>
+            <hr>
+            <span>2022 © Alejandro Criado Gonzalez</span> 
+            <ul>
+                <li><a href="">Terms and conditions</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Cookies</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
