@@ -14,103 +14,103 @@ html {
     font-weight: 1 999;
 }
 
-    .container {
-        max-width: 400px;
-    }
+.container {
+    max-width: 400px;
+}
 
-    header .container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
+header .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
 
-    .header-logo-link{
-        align-self: center;
-        text-align: center;
-        width: 100%;
-    }
+.header-logo-link{
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
 
-    header nav{
-        align-self: center;
-        text-align: center;
-        width: 100%;
-    }
+header nav{
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
 
-    main .home-grid{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 265px 265px 350px 330px 330px;
-    }
-    
-    .shop-home-div {
-        grid-column: 1 / 3;
-        grid-row: 3;
-    }
+main .home-grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 265px 265px 350px 330px 330px;
+}
 
-    .quote{
-        width: 85%;
-        height: 240px;
-    }
+.shop-home-div {
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
 
-    .img-grid-home {
-        grid-column: 1 / 3;
-        grid-row: 4;
-    }
+.quote{
+    width: 85%;
+    height: 240px;
+}
 
-    .pick-otw {
-        grid-column: 1 / 3;
-        grid-row: 5;
-    }
+.img-grid-home {
+    grid-column: 1 / 3;
+    grid-row: 4;
+}
 
-    #recipes-grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 7fr;
-    }
+.pick-otw {
+    grid-column: 1 / 3;
+    grid-row: 5;
+}
 
-    .filtres {
-        display: none;
-    }
-    
-    .pags {
-        grid-column: 1 / 3;
-        grid-row: 7;
-        margin: auto;
-    }
+#recipes-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 7fr;
+}
 
-    .videos-grid {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6,  minmax(min-content, 430px));
-    }
+.filtres {
+    display: none;
+}
 
-    footer .container{
-        text-align: center;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 5fr;
-    }
+.pags {
+    grid-column: 1 / 3;
+    grid-row: 7;
+    margin: auto;
+}
 
-    .first-line-f {
-        grid-column: 1;
-        grid-row: 1;
-    }
+.videos-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6,  minmax(min-content, 430px));
+}
 
-    .follow {
-        grid-column: 1;
-        grid-row: 2;
-    }
+footer .container{
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 5fr;
+}
 
-    footer hr {
-        grid-column: 1;
-        grid-row: 3;
-    }
+.first-line-f {
+    grid-column: 1;
+    grid-row: 1;
+}
 
-    footer span {
-        grid-column: 1;
-        grid-row: 4;
-    }
+.follow {
+    grid-column: 1;
+    grid-row: 2;
+}
 
-    footer ul {
-        grid-column: 1;
-        grid-row: 5;
-    }
+footer hr {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+footer span {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+footer ul {
+    grid-column: 1;
+    grid-row: 5;
+}
 
 @media (min-width: 768px) {
     .container {
@@ -313,7 +313,7 @@ main h2{
     padding: 12% 0;
     height: 370px;
     width: auto;
-    background-image: url("img/knife-bg.jpg"); 
+    background-image: url("../img/knife-bg.jpg"); 
     background-position: top; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -352,7 +352,7 @@ main h2{
     height: 350px;
     display: flex;
     align-items: center;
-    background-image: url("img/shop-bg.jpg"); 
+    background-image: url("../img/shop-bg.jpg"); 
     background-position: top; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -431,7 +431,7 @@ main h2{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url("img/doodle.png"); 
+    background-image: url("../img/doodle.png"); 
     background-color: #79BAAB;
     background-position: center; 
     background-repeat: repeat; 
